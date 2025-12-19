@@ -1,0 +1,15 @@
+{
+    "project_name": "PJME Energy Predictor",
+    "base_model": {
+        "MAPE": "1.24%",
+        "R2": "0.9935"
+    },
+    "optimized_model": {
+        "MAPE": "0.78%",
+        "R2": "0.9973",
+        "MAE": "247.23",
+        "RMSE": "333.79"
+    },
+    "improvement_rate": "37.1%",
+    "feature_count": 44
+}
