@@ -1,121 +1,123 @@
-# Data Science Journey
+<!-- Banner -->
+<p align="center">
+  <img src=".github/banner.png" alt="Data Science Portfolio" style="max-width: 100%; height: auto;" />
+</p>
 
-A comprehensive repository documenting my progression through data science fundamentals, machine learning applications, and advanced analytical techniques.
+# Data Science Portfolio — İlyas
 
----
-
-## Repository Structure
-
-### 01_EDA
-Exploratory Data Analysis forms the foundation of any data science project. This directory contains systematic investigations into diverse datasets, focusing on understanding data characteristics, distributions, relationships, and anomalies before proceeding to modeling stages.
-
-### 02_Visualization
-Effective data visualization transforms complex datasets into interpretable insights. This section covers visual representation techniques using industry-standard libraries, emphasizing clarity and aesthetic presentation of data-driven narratives.
-
-### 03_Feature_Engineering
-The art of transforming raw data into meaningful features directly impacts model performance. This module encompasses techniques for handling missing values, encoding categorical variables, feature selection methodologies, and scaling approaches.
-
-### 04_Machine_Learning
-Applied machine learning projects demonstrating end-to-end workflows from problem definition through model deployment. Each project represents a complete pipeline: exploratory analysis, feature engineering, model selection, and performance evaluation.
-
-### 05_Time_Series
-Time series analysis addresses temporal dependencies in data. This directory includes forecasting methodologies, anomaly detection techniques, and statistical approaches specific to temporal dynamics.
-
-### 06_Deep_Learning
-Advanced neural network architectures for specialized domains including computer vision, natural language processing, and deep learning applications on tabular data.
-
-### 07_Algorithms_from_Scratch
-Implementing foundational algorithms without relying on high-level libraries provides deep understanding of underlying mechanics. This section includes linear algebra applications, geometric computations, matrix decomposition, and optimization methods.
-
-### 08_Game_Theory
-Game theoretic principles and evolutionary algorithms. Includes genetic algorithms, reinforcement learning paradigms, and Pareto optimality applications.
-
-### 09_Statistical_Learning
-Comprehensive coverage of statistical foundations underlying machine learning. Includes applied laboratories in both Python and R, with emphasis on theoretical understanding paired with practical implementation.
-
-### Python & R
-Core programming exercises and foundational scripts demonstrating language proficiency and mathematical computation capabilities.
-
-### Utils
-Reusable utility modules for metrics calculation, model utilities, preprocessing pipelines, and visualization helpers.
-
-### Datasets
-Data collection and storage directory for project datasets.
+<p align="center">
+  <a href="https://github.com/<GITHUB_USERNAME>"><img alt="Profile" src="https://img.shields.io/badge/Portfolio-Data%20Science-blue?style=for-the-badge&logo=databricks"/></a>
+  <img alt="MIT License" src="https://img.shields.io/badge/License-MIT-green?style=flat-square" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python" />
+  <img alt="Notebooks" src="https://img.shields.io/badge/Jupyter-Notebooks-orange?style=flat-square&logo=jupyter" />
+  <img alt="Top Language" src="https://img.shields.io/github/languages/top/<GITHUB_USERNAME>/data-science-portfolio?style=flat-square" />
+</p>
 
 ---
 
-## Technology Stack
+## Hakkında ✨
+Profesyonel ve takip edilebilir bir Data Science portfolyosu. Bu repo, veri analizi (EDA), veri görselleştirme, özellik mühendisliği, makine öğrenimi, zaman serileri ve derin öğrenme projelerini içerir. Her proje; veri, not defteri, görseller ve (varsa) model çıktılarını barındıracak şekilde yapılandırılmıştır.
 
-**Data Processing & Computation**
-Python, Pandas, NumPy, SciPy
-
-**Machine Learning**
-Scikit-learn, XGBoost
-
-**Deep Learning**
-TensorFlow, Keras
-
-**Visualization**
-Matplotlib, Seaborn
-
-**Statistical Analysis**
-R, Statsmodels
-
-**Development Environment**
-Jupyter Notebook, Git
+> Bu README'yi özelleştirmek için `<GITHUB_USERNAME>` kısmını GitHub kullanıcı adınızla değiştirin. İsteğe bağlı olarak `.github/banner.png` dosyasını kendi banner görseliniz ile değiştirin. 🔧
 
 ---
 
-## Getting Started
+## Hızlı Navigasyon (Portfolio) 🔭
+- [01_EDA](./01_EDA) — Keşifsel Veri Analizleri ve raporlar
+- [02_Visualization](./02_Visualization) — Görselleştirme örnekleri (Matplotlib, Seaborn)
+- [03_Feature_Engineering](./03_Feature_Engineering) — Özellik mühendisliği ve veri işleme
+- [04_Machine_Learning](./04_Machine_Learning) — Model geliştirme ve değerlendirme
+  - [house-price-prediction](./04_Machine_Learning/house-price-prediction)
+- [05_Time_Series](./05_Time_Series) — Zaman serisi projeleri ve pipeline'lar
+- [06_Deep_Learning](./06_Deep_Learning) — Derin öğrenme örnekleri
+- [07_Algorithms_from_Scratch](./07_Algorithms_from_Scratch) — Algoritma uygulamaları
+- [08_Statistical_Learning](./08_Statistical_Learning) — İstatistiksel öğrenme ve uygulamalar
+- [utils](./utils) — Yardımcı scriptler ve tekrar kullanılabilir kodlar
 
-### Installation
+---
 
+## Öne Çıkan Projeler ⭐
+- **House Price Prediction** — Eksik veri yönetimi, özellik mühendisliği, model seçimi ve değerlendirme (RMSE, MAE). ([notebook](./04_Machine_Learning/house-price-prediction/notebook/full_workflow.ipynb))
+- **PJME Energy Predictor** — Zaman serisi pipeline, model optimizasyonu ve tahmin raporları. ([notebook](./05_Time_Series/PJME_Energy_Predictor/notebook))
+- **Hotel Booking Feature Engineering** — Veri temizleme, feature engineering ve görseller. ([proje klasörü](./03_Feature_Engineering/Hotel_Booking_FE))
+
+---
+
+## Teknoloji Yığını 🔧
+- Veri işleme: Pandas, NumPy
+- Modelleme: Scikit-Learn, XGBoost, TensorFlow
+- Görselleştirme: Matplotlib, Seaborn, Plotly
+- İletişim: Jupyter Notebook, Streamlit (bazı projelerde)
+
+---
+
+## Hızlı Başlangıç (Local) 🚀
 ```bash
-git clone https://github.com/[username]/data-science-journey.git
-cd data-science-journey
+# Repo'yu kopyala
+git clone https://github.com/<GITHUB_USERNAME>/data-science-portfolio.git
+cd data-science-portfolio
 
-python -m venv venv
-source venv/bin/activate
+# Önerilen: sanal ortam oluştur
+python -m venv .venv
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
+# veya cmd
+.venv\Scripts\activate.bat
 
-pip install pandas numpy scikit-learn matplotlib seaborn jupyter tensorflow
-```
+pip install -r requirements.txt  # eğer varsa
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 
-### Running Notebooks
-
-```bash
+# Jupyter başlat
 jupyter notebook
 ```
 
-Navigate to desired project directory and select notebook file.
+> İpucu: Her proje klasöründe kendi `requirements.txt` veya `environment.yml` dosyasını bulundurmak, çevresel bağımlılık yönetimini kolaylaştırır. 💡
 
 ---
 
-## Learning Progression
+## GitHub Stat ve Profiller 📊
+Aşağıdaki kartlar **kullanıcı seviyesinde** (toplam commit, toplam repo sayısı, toplam yıldız) ve **bu repo için** (repo yıldızları, forks, issues) dinamik olarak güncellenir. Lütfen tüm `<GITHUB_USERNAME>` ve `<REPO_NAME>` yer tutucularını kendi bilgilerinizle değiştirin.
 
-**Foundational**: Start with 01_EDA and 02_Visualization to understand exploratory analysis and communication through visualization.
+<!-- Kullanıcı Genel İstatistikleri -->
+**Kullanıcı genel istatistikleri (toplam commit dahil):**
 
-**Intermediate**: Progress through 03_Feature_Engineering and 04_Machine_Learning for applied modeling experience.
+`![GitHub User Stats](https://github-readme-stats.vercel.app/api?username=<GITHUB_USERNAME>&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true)`
 
-**Advanced**: Explore 06_Deep_Learning, 07_Algorithms_from_Scratch, and 08_Game_Theory for specialized and theoretical applications.
+**Toplam public repo ve toplam yıldız (hızlı bakış):**
+
+`![Top Repos](https://badges.pufler.dev/repos/<GITHUB_USERNAME>.svg)`  `![Total Stars](https://badges.pufler.dev/stars/<GITHUB_USERNAME>.svg)`
+
+<!-- Repo-seviyesi kartlar -->
+**Bu repo (data-science-portfolio) için öne çıkan kartlar:**
+
+`![Pinned Repo](https://github-readme-stats.vercel.app/api/pin/?username=<GITHUB_USERNAME>&repo=data-science-portfolio&theme=tokyonight)`
+
+**Repo dinamik rozetleri:**
+
+`![Stars](https://img.shields.io/github/stars/<GITHUB_USERNAME>/data-science-portfolio?style=flat-square)`  `![Forks](https://img.shields.io/github/forks/<GITHUB_USERNAME>/data-science-portfolio?style=flat-square)`  `![Open Issues](https://img.shields.io/github/issues/<GITHUB_USERNAME>/data-science-portfolio?style=flat-square)`
+
+> Not: `github-readme-stats` kartı kullanıcı bazında `include_all_commits=true` parametresi ile toplam commit sayınızı gösterebilir; repo bazlı commit sayısı/aktivite için `badges.pufler.dev` veya repo pin kartını kullanabilirsiniz.
 
 ---
 
-## References
+## Katkıda Bulunma & Lisans 🤝
+Katkılar memnuniyetle karşılanır. Lütfen önce `issues` açın veya direkt olarak PR gönderin.
 
-Key learning resources include:
-- Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow
-- An Introduction to Statistical Learning
-- Mathematics for Machine Learning
-- Applied Statistical Methods
+Bu proje **MIT Lisansı** altındadır. Detaylar için `LICENSE` dosyasına bakın.
 
 ---
 
-## License
-
-MIT License
+## İletişim ✉️
+- GitHub: [@<GITHUB_USERNAME>](https://github.com/<GITHUB_USERNAME>)
+- LinkedIn: `linkedin.com/in/<YOUR_PROFILE>` (isteğe bağlı)
 
 ---
 
-<div style="text-align: center; margin-top: 40px; padding-top: 40px; border-top: 1px solid #e0e0e0;">
-  <p style="color: #666; font-size: 14px;">Last updated: 2025</p>
+<div align="center">
+  <p>Son güncelleme: 18 Ocak 2026</p>
+  <p>
+    <!-- Örnek: GitHub istatistik kartları (kullanıcı adınızı değiştirin) -->
+    <img src="https://github-readme-stats.vercel.app/api?username=<GITHUB_USERNAME>&show_icons=true&theme=tokyonight" alt="GitHub stats" />
+  </p>
 </div>
+
