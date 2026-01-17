@@ -76,27 +76,52 @@ jupyter notebook
 ---
 
 ## GitHub Stat ve Profiller 📊
-Aşağıdaki kartlar **kullanıcı seviyesinde** (toplam commit, toplam repo sayısı, toplam yıldız) ve **bu repo için** (repo yıldızları, forks, issues) dinamik olarak güncellenir. Lütfen tüm `<GITHUB_USERNAME>` ve `<REPO_NAME>` yer tutucularını kendi bilgilerinizle değiştirin.
+## 📊 GitHub Dashboard & Activity
 
-<!-- Kullanıcı Genel İstatistikleri -->
-**Kullanıcı genel istatistikleri (toplam commit dahil):**
+ ## 📊 Digital Footprint & Analytics Dashboard
 
-`![GitHub User Stats](https://github-readme-stats.vercel.app/api?username=<GITHUB_USERNAME>&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true)`
+<div align="center">
+  <table border="0">
+    <tr>
+      <td width="50%" align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=muhammedsaylik&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=false" alt="Main Stats" width="100%" />
+      </td>
+      <td width="50%" align="center">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muhammedsaylik&layout=compact&theme=tokyonight&hide_border=false" alt="Top Languages" width="100%" />
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=muhammedsaylik&theme=tokyonight&hide_border=false" alt="GitHub Streak" width="100%" />
+      </td>
+      <td width="50%" align="center">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=muhammedsaylik&repo=DataScience-Portfolio&theme=tokyonight" alt="Repo Focus" width="100%" />
+      </td>
+    </tr>
+  </table>
+</div>
 
-**Toplam public repo ve toplam yıldız (hızlı bakış):**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/assets/Python.svg" width="40" height="40" alt="python" />
+  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/assets/Pandas.svg" width="40" height="40" alt="pandas" />
+  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/assets/Numpy.svg" width="40" height="40" alt="numpy" />
+  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/assets/ScikitLearn.svg" width="40" height="40" alt="scikitlearn" />
+  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/assets/Tensorflow.svg" width="40" height="40" alt="tensorflow" />
+</p>
 
-`![Top Repos](https://badges.pufler.dev/repos/<GITHUB_USERNAME>.svg)`  `![Total Stars](https://badges.pufler.dev/stars/<GITHUB_USERNAME>.svg)`
+<p align="center">
+  <a href="https://github.com/muhammedsaylik/DataScience-Portfolio">
+    <img src="https://img.shields.io/github/stars/muhammedsaylik/DataScience-Portfolio?style=social" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/muhammedsaylik/DataScience-Portfolio/network/members">
+    <img src="https://img.shields.io/github/forks/muhammedsaylik/DataScience-Portfolio?style=social" />
+  </a>
+</p>
 
-<!-- Repo-seviyesi kartlar -->
-**Bu repo (data-science-portfolio) için öne çıkan kartlar:**
+---
 
-`![Pinned Repo](https://github-readme-stats.vercel.app/api/pin/?username=<GITHUB_USERNAME>&repo=data-science-portfolio&theme=tokyonight)`
-
-**Repo dinamik rozetleri:**
-
-`![Stars](https://img.shields.io/github/stars/<GITHUB_USERNAME>/data-science-portfolio?style=flat-square)`  `![Forks](https://img.shields.io/github/forks/<GITHUB_USERNAME>/data-science-portfolio?style=flat-square)`  `![Open Issues](https://img.shields.io/github/issues/<GITHUB_USERNAME>/data-science-portfolio?style=flat-square)`
-
-> Not: `github-readme-stats` kartı kullanıcı bazında `include_all_commits=true` parametresi ile toplam commit sayınızı gösterebilir; repo bazlı commit sayısı/aktivite için `badges.pufler.dev` veya repo pin kartını kullanabilirsiniz.
+ 
 
 ---
 
