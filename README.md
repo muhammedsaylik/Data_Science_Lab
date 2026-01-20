@@ -1,9 +1,7 @@
 <!-- Banner -->
-<p align="center">
-  <img src=".github/banner.png" alt="Data Science Portfolio" style="max-width: 100%; height: auto;" />
-</p>
 
-# Data Science Portfolio — İlyas
+<h1 align='center'>Data Science Portfolio</h1>      
+       
 
 <p align="center">
   <a href="https://github.com/<GITHUB_USERNAME>"><img alt="Profile" src="https://img.shields.io/badge/Portfolio-Data%20Science-blue?style=for-the-badge&logo=databricks"/></a>
@@ -16,9 +14,8 @@
 ---
 
 ## Hakkında ✨
-Profesyonel ve takip edilebilir bir Data Science portfolyosu. Bu repo, veri analizi (EDA), veri görselleştirme, özellik mühendisliği, makine öğrenimi, zaman serileri ve derin öğrenme projelerini içerir. Her proje; veri, not defteri, görseller ve (varsa) model çıktılarını barındıracak şekilde yapılandırılmıştır.
+>Profesyonel ve takip edilebilir bir Data Science portfolyosu. Bu repo, veri analizi (EDA), veri görselleştirme, özellik mühendisliği, makine öğrenimi, zaman serileri ve derin öğrenme projelerini içerir. Her proje; veri, not defteri, görseller ve (varsa) model çıktılarını barındıracak şekilde yapılandırılmıştır.
 
-> Bu README'yi özelleştirmek için `<GITHUB_USERNAME>` kısmını GitHub kullanıcı adınızla değiştirin. İsteğe bağlı olarak `.github/banner.png` dosyasını kendi banner görseliniz ile değiştirin. 🔧
 
 ---
 
@@ -27,7 +24,7 @@ Profesyonel ve takip edilebilir bir Data Science portfolyosu. Bu repo, veri anal
 - [02_Visualization](./02_Visualization) — Görselleştirme örnekleri (Matplotlib, Seaborn)
 - [03_Feature_Engineering](./03_Feature_Engineering) — Özellik mühendisliği ve veri işleme
 - [04_Machine_Learning](./04_Machine_Learning) — Model geliştirme ve değerlendirme
-  - [house-price-prediction](./04_Machine_Learning/house-price-prediction)
+   
 - [05_Time_Series](./05_Time_Series) — Zaman serisi projeleri ve pipeline'lar
 - [06_Deep_Learning](./06_Deep_Learning) — Derin öğrenme örnekleri
 - [07_Algorithms_from_Scratch](./07_Algorithms_from_Scratch) — Algoritma uygulamaları
@@ -76,50 +73,9 @@ jupyter notebook
 ---
 
 ## GitHub Stat ve Profiller 📊
-## 📊 GitHub Dashboard & Activity
 
- ## 📊 Digital Footprint & Analytics Dashboard
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=muhammedsaylik&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=false" alt="Main Stats" width="100%" />
-      </td>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muhammedsaylik&layout=compact&theme=tokyonight&hide_border=false" alt="Top Languages" width="100%" />
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=muhammedsaylik&theme=tokyonight&hide_border=false" alt="GitHub Streak" width="100%" />
-      </td>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=muhammedsaylik&repo=DataScience-Portfolio&theme=tokyonight" alt="Repo Focus" width="100%" />
-      </td>
-    </tr>
-  </table>
-</div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/assets/Python.svg" width="40" height="40" alt="python" />
-  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/assets/Pandas.svg" width="40" height="40" alt="pandas" />
-  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/assets/Numpy.svg" width="40" height="40" alt="numpy" />
-  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/assets/ScikitLearn.svg" width="40" height="40" alt="scikitlearn" />
-  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/assets/Tensorflow.svg" width="40" height="40" alt="tensorflow" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/muhammedsaylik/DataScience-Portfolio">
-    <img src="https://img.shields.io/github/stars/muhammedsaylik/DataScience-Portfolio?style=social" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/muhammedsaylik/DataScience-Portfolio/network/members">
-    <img src="https://img.shields.io/github/forks/muhammedsaylik/DataScience-Portfolio?style=social" />
-  </a>
-</p>
-
----
 
  
 
